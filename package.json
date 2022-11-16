@@ -1,0 +1,28 @@
+{
+    "name": "socialnetwork-api",
+    "version": "1.0.0",
+    "description": "A Social Network API using Express.js, MongoDB database, and Mongoose ODM",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "nodemon server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lhaurod/SocialNetwork-API.git"
+    },
+    "author": "Lhaura Rodriguez",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/lhaurod/SocialNetwork-API/issues"
+    },
+    "homepage": "https://github.com/lhaurod/SocialNetwork-API#readme",
+    "devDependencies": {
+      "nodemon": "^2.0.19"
+    },
+    "dependencies": {
+      "express": "^4.18.1",
+      "moment": "^2.29.4",
+      "mongoose": "^6.4.4"
+    }
+  }
